@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Lato", "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  margin: 0;
+  background-image: url("src/assets/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  font-family: "Lato", "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  background: none;
+  line-height: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+#auth-inputs {
+  max-width: 45%;
+  padding: 1.6rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.login-title{
+  color: #363280;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a7a1ff;
+}
+
+.controls input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  line-height: 1.5;
+  background-color: #e2e0ff;
+  color: #374151;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+label.invalid {
+  color: #f87171;
+}
+
+input.invalid {
+  color: #ef4444;
+  border-color: #f73f3f;
+  background-color: #fed2d2;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.button {
+  padding: 1.2rem 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #6c63ff;
+  border-radius: 6px;
+  border: none;
+  flex-shrink: 0;
+}
+
+.button:hover {
+  background-color: #9892ff;
+}
+
+.text-button {
+  color: #6c63ff;
+  border: none;
+}
+
+.text-button:hover {
+  color: #363280;
+}
+
+.signup-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.signup-img-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.sign-up-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
