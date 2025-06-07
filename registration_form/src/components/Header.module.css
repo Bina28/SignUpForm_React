@@ -11,13 +11,6 @@ header {
 
 }
 
-header img {
-  object-fit: contain;
-  margin-bottom: 2rem;
-  width: 11rem;
-  height: 11rem;
-}
-
 header h1 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -26,7 +19,7 @@ header h1 {
   margin: 1rem 0;
 }
 
-header p {
+.paragraph {
   text-align: center;
   color: white;
 
